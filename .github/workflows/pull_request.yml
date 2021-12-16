@@ -10,3 +10,5 @@ jobs:
       - uses: tiulpin/qodana-action@main
         with: 
           linter: jetbrains/qodana-jvm
+          fail-threshold: 1
+          
